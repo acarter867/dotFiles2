@@ -45,16 +45,59 @@ button:hover {
     padding: 3px 14px; /* Adjust padding for better spacing */
     border-radius: 16px; /* Rounded corners */
     color: #ffffff;
+    border: 1px solid aqua;
 }
 
 #clock:hover{
     background-color: rgba(255, 0, 0, 0.3);
 }
 
-#cpu,
-#memory,
+#cpu {
+    font-size: 12px;
+    background-color: rgba(55, 255, 0, 0.3);
+    padding: 3px 14px; /* Adjust padding for better spacing */
+    border-radius: 16px; /* Rounded corners */
+    color: #ffffff;
+    border: 1px solid lightgreen;
+}
+
+#memory{
+    font-size: 12px;
+    background-color: rgba(55, 255, 0, 0.3);
+    padding: 3px 14px; /* Adjust padding for better spacing */
+    border-radius: 16px; /* Rounded corners */
+    color: #ffffff;
+    border: 1px solid lightgreen;
+}
+
+#temperature{
+    font-size: 12px;
+    background-color: rgba(55, 255, 0, 0.3);
+    padding: 3px 14px; /* Adjust padding for better spacing */
+    border-radius: 16px; /* Rounded corners */
+    color: #ffffff;
+    border: 1px solid lightgreen;
+}
+
+#window{
+    font-size: 12px;
+    background-color: rgba(0, 100, 255, 0.3);
+    padding: 3px 14px; /* Adjust padding for better spacing */
+    border-radius: 16px; /* Rounded corners */
+    color: #ffffff;
+    border: 1px solid lightblue;
+}
+
+#workspaces button{
+    font-size: 12px;
+    background-color: rgba(0, 100, 255, 0.3);
+    padding: 3px 14px; /* Adjust padding for better spacing */
+    border-radius: 8px; /* Rounded corners */
+    color: #ffffff;
+    border: 1px solid lightblue;
+}
+
 #pulseaudio,
-#workspaces button,
 #wireplumber,
 #idle_inhibitor,
 #mpd {
@@ -72,11 +115,6 @@ button:hover {
 #idle_inhibitor:hover,
 #mpd:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Hover effect for modules */
-}
-
-#temperature {
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
-    border-radius: 16px; /* Rounded corners */
 }
 
 #temperature.critical {
@@ -125,9 +163,6 @@ button:hover {
 #privacy-item.screenshare {
     background-color: #cf5700;
     border-radius: 16px; /* Rounded corners */
-}
-#window {
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */border-radius: 8px; /* Rounded corners */padding: 4px 8px; /* Padding for the current window title */
 }
 
 #window:hover {

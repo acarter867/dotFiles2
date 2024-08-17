@@ -14,7 +14,7 @@
 
     "memory":{"format":"{used}/{total} GB","tooltip":false},
     "modules-right": [
-       "idle_inhibitor", "pulseaudio",
+       "pulseaudio",
         "cpu", "memory", "temperature",  "hyprland/window"    ]
 }
 

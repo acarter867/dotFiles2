@@ -1,4 +1,4 @@
-[2024-08-15 06:11:34.797] [debug] these are the commands [
+[2024-08-17 15:30:29.657] [debug] these are the commands [
   'version',
   'keymap.custom',
   'keymap.default',
@@ -76,7 +76,7 @@
   'wireless.rf.channelHop',
   'wireless.rf.syncPairing'
 ]
-[2024-08-15 06:11:34.797] [verbose] the device is serial type, and connected as: {
+[2024-08-17 15:30:29.657] [verbose] the device is serial type, and connected as: {
   _events: {
     data: 'function ondata(chunk) {\n' +
       "    debug('ondata');\n" +
@@ -65678,7 +65678,7 @@
   },
   _eventsCount: 2
 }
-[2024-08-15 06:11:34.825] [info]  GOING TO CONNECT TO!! 0 {
+[2024-08-17 15:30:29.684] [info]  GOING TO CONNECT TO!! 0 {
   info: {
     vendor: 'Dygma',
     product: 'Defy',
@@ -65739,8 +65739,8 @@
   isDeviceSupported: '()=>n(void 0,void 0,void 0,(function*(){return!0}))',
   wireless: false,
   chipId: '2bd7fc8b1cf76df5'
-} { current: null } false
-[2024-08-15 06:11:34.825] [verbose] Connecting to serial {
+} { current: null } true
+[2024-08-17 15:30:29.684] [verbose] Connecting to serial {
   info: {
     vendor: 'Dygma',
     product: 'Defy',
