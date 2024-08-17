@@ -1,0 +1,19 @@
+{
+    "height": 30,
+    "spacing": 4,
+    "output": "DP-2",
+    "modules-left": ["hyprland/workspaces#monitor1", "custom/media"],
+    "hyprland/workspaces#monitor1": {
+        "output": "DP-2",
+        "disable-scroll": true,
+        "format": "{name}",
+        "on-click": "activate"
+    },
+    "modules-center": ["clock"],
+    "cpu":{"format":"CPU {usage}%","tooltip":false},
+    "memory":{"format":"{used}/{total} GB","tooltip":false},
+
+    "modules-right": [
+       "idle_inhibitor", "pulseaudio",
+        "cpu", "memory", "temperature",  "hyprland/window"    ]
+}

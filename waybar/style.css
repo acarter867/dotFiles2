@@ -1,0 +1,135 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: transparent; /* Remove Waybar background */
+    border: none; /* Remove the border */
+    color: #ffffff;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+button {
+    box-shadow: inset 0 0 0 0 transparent; /* No shadow */
+    border: none; /* No border on buttons */
+    border-radius: 16px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for modules */
+   /* padding: 4px 8px;  Padding for buttons */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+}
+
+#workspaces button.focused {
+    background-color: rgba(0, 155, 255, 0.7); /* Slightly more opaque background for focused workspace */
+    border-radius: 4px; /* Rounded corners */
+    color: #ffffff; /* Ensure text color is white */
+}
+
+#mode {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 -3px#ffffff;
+    border-radius: 16px; /* Rounded corners */
+}
+
+#clock {
+    font-size: 20px;
+    background-color: rgba(155, 255, 155, 0.3);
+    padding: 3px 14px; /* Adjust padding for better spacing */
+    border-radius: 16px; /* Rounded corners */
+    color: #ffffff;
+}
+
+#clock:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+#cpu,
+#memory,
+#pulseaudio,
+#workspaces button,
+#wireplumber,
+#idle_inhibitor,
+#mpd {
+    padding: 4px 8px; /* Adjust padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 16px; /* Rounded corners */
+    color: #ffffff;
+}
+
+#cpu:hover,
+#workspaces button:hover,
+#memory:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#idle_inhibitor:hover,
+#mpd:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect for modules */
+}
+
+#temperature {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 16px; /* Rounded corners */
+}
+
+#temperature.critical {
+    background-color: rgba(255, 0, 0, 0.3); /* Red background for critical temperature */
+    border-radius: 16px; /* Rounded corners */
+}
+
+#idle_inhibitor {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px; /* Rounded corners */
+}
+
+#idle_inhibitor.activated {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #2d3436;
+    border-radius: 16px; /* Rounded corners */
+}
+
+#mpd {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px; /* Rounded corners */
+}
+
+#mpd.disconnected {
+    background-color: rgba(245, 60, 60, 0.3); /* Red background for disconnected state */border-radius: 8px; /* Rounded corners */
+}
+
+#mpd.stopped {
+    background-color: rgba(144, 177, 177, 0.3); /* Gray background for stopped state */border-radius: 8px; /* Rounded corners */
+}
+
+#mpd.paused {
+    background-color: rgba(81, 163, 122, 0.3); /* Green background for paused state */border-radius: 8px; /* Rounded corners */
+}
+
+#privacy {
+    padding: 0;
+}
+
+#privacy-item {
+    padding: 05px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */border-radius: 8px; /* Rounded corners */
+}
+
+#privacy-item.screenshare {
+    background-color: #cf5700;
+    border-radius: 16px; /* Rounded corners */
+}
+#window {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */border-radius: 8px; /* Rounded corners */padding: 4px 8px; /* Padding for the current window title */
+}
+
+#window:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect for the current window title */
+}
