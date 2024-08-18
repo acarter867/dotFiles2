@@ -27,11 +27,6 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
 }
 
-#workspaces button.focused {
-    background-color: rgba(0, 155, 255, 0.7); /* Slightly more opaque background for focused workspace */
-    border-radius: 4px; /* Rounded corners */
-    color: #ffffff; /* Ensure text color is white */
-}
 
 #mode {
     background-color: rgba(255, 255, 255, 0.1);
@@ -88,13 +83,22 @@ button:hover {
     border: 1px solid lightblue;
 }
 
-#workspaces button{
+#workspaces {
     font-size: 12px;
     background-color: rgba(0, 100, 255, 0.3);
     padding: 3px 14px; /* Adjust padding for better spacing */
     border-radius: 8px; /* Rounded corners */
     color: #ffffff;
     border: 1px solid lightblue;
+}
+
+#workspaces button.active{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+#workspaces button{
+    border-radius: 5px;
 }
 
 #pulseaudio,
