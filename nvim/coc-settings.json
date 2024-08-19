@@ -1,0 +1,6 @@
+{
+    "prettier.configPath": "/home/dingus/.config/nvim/.prettierrc",
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "coc.preferences.formatOnSave": true
+}
