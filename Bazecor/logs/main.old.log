@@ -1,4 +1,4 @@
-[2024-08-17 15:30:29.657] [debug] these are the commands [
+[2024-08-22 14:57:37.500] [debug] these are the commands [
   'version',
   'keymap.custom',
   'keymap.default',
@@ -76,7 +76,7 @@
   'wireless.rf.channelHop',
   'wireless.rf.syncPairing'
 ]
-[2024-08-17 15:30:29.657] [verbose] the device is serial type, and connected as: {
+[2024-08-22 14:57:37.500] [verbose] the device is serial type, and connected as: {
   _events: {
     data: 'function ondata(chunk) {\n' +
       "    debug('ondata');\n" +
@@ -107,7 +107,7 @@
   },
   allowHalfOpen: true,
   port: {
-    fd: 51,
+    fd: 53,
     openOptions: {
       vmin: 1,
       vtime: 0,
@@ -65672,13 +65672,13 @@
     autoOpen: false,
     endOnClose: true,
     highWaterMark: 65536,
-    binding: { list: '[function]', open: '[function]', fd: 51 },
+    binding: { list: '[function]', open: '[function]', fd: 53 },
     path: '/dev/ttyACM0',
     baudRate: 115200
   },
   _eventsCount: 2
 }
-[2024-08-17 15:30:29.684] [info]  GOING TO CONNECT TO!! 0 {
+[2024-08-22 14:57:37.528] [info]  GOING TO CONNECT TO!! 0 {
   info: {
     vendor: 'Dygma',
     product: 'Defy',
@@ -65740,7 +65740,7 @@
   wireless: false,
   chipId: '2bd7fc8b1cf76df5'
 } { current: null } true
-[2024-08-17 15:30:29.684] [verbose] Connecting to serial {
+[2024-08-22 14:57:37.528] [verbose] Connecting to serial {
   info: {
     vendor: 'Dygma',
     product: 'Defy',
