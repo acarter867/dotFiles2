@@ -809,19 +809,94 @@
 				{
 					"actions": [
 						{
-							"keyCode": 227,
 							"type": 6,
-							"id": 0
+							"keyCode": 227
 						},
 						{
-							"keyCode": 39,
 							"type": 8,
-							"id": 1
+							"keyCode": 39
 						}
 					],
 					"name": "Workspace 10",
 					"macro": "LEFT LINUX 0",
 					"id": 14
+				},
+				{
+					"actions": [
+						{
+							"type": 6,
+							"keyCode": 227
+						},
+						{
+							"type": 8,
+							"keyCode": 79
+						}
+					],
+					"name": "focus-right",
+					"macro": "LEFT LINUX →",
+					"id": 15
+				},
+				{
+					"actions": [
+						{
+							"type": 6,
+							"keyCode": 227
+						},
+						{
+							"type": 8,
+							"keyCode": 80
+						}
+					],
+					"name": "focus-left",
+					"macro": "LEFT LINUX ←",
+					"id": 16
+				},
+				{
+					"actions": [
+						{
+							"type": 6,
+							"keyCode": 227
+						},
+						{
+							"type": 8,
+							"keyCode": 82
+						}
+					],
+					"name": "focus-up",
+					"macro": "LEFT LINUX ↑",
+					"id": 17
+				},
+				{
+					"actions": [
+						{
+							"type": 6,
+							"keyCode": 227
+						},
+						{
+							"type": 8,
+							"keyCode": 81
+						}
+					],
+					"name": "focus-down",
+					"macro": "LEFT LINUX ↓",
+					"id": 18
+				},
+				{
+					"actions": [
+						{
+							"keyCode": 227,
+							"type": 6,
+							"id": 0
+						},
+						{
+							"keyCode": 20,
+							"type": 8,
+							"id": 0
+						}
+					],
+					"name": "open-terminal",
+					"macro": "LEFT LINUX ↓",
+					"id": 19
 				}
 			],
 			"superkeys": []
