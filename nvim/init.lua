@@ -110,7 +110,7 @@ local null_ls = require("null-ls")
 null_ls.setup({
   sources = {
     null_ls.builtins.formatting.prettier.with({
-        extra_args = { "--print-width", "100", "--tab-width", "4", "--single-quote", "--jsx-single-quote" },
+        extra_args = { "--print-width", "115", "--tab-width", "4", "--single-quote", "--jsx-single-quote" },
     }),
   },
   on_attach = function(client, bufnr)
