@@ -27,3 +27,4 @@ vim.cmd('source ~/.config/nvim/configs/theme.lua')
 
 -- Load CMP Config
 vim.cmd('source ~/.config/nvim/configs/cmp.lua')
+

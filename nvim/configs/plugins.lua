@@ -45,6 +45,7 @@ packer.startup(function(use)
     'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
   use 'ThePrimeagen/harpoon'
