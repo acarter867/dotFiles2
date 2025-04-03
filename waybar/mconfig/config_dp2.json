@@ -2,18 +2,32 @@
     "height": 30,
     "spacing": 4,
     "output": "DP-2",
+
+    "cpu": {
+        "format": "CPU {usage}%",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "{used}/{total} GB",
+        "tooltip": false
+    },
+
     "modules-left": ["hyprland/workspaces#monitor1", "custom/media"],
+
     "hyprland/workspaces#monitor1": {
         "output": "DP-2",
         "disable-scroll": true,
         "format": "{name}",
         "on-click": "activate"
     },
-    "modules-center": ["clock"],
-    "cpu":{"format":"CPU {usage}%","tooltip":false},
-    "memory":{"format":"{used}/{total} GB","tooltip":false},
 
-    "modules-right": [
-       "pulseaudio",
-        "cpu", "memory", "temperature",  "hyprland/window"    ]
+    "modules-center": ["clock"],
+
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>",
+        "interval": 60
+    },
+    "modules-right": ["pulseaudio", "cpu", "memory", "temperature", "hyprland/window"]
 }

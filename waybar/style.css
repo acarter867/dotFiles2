@@ -18,23 +18,13 @@ button {
     box-shadow: inset 0 0 0 0 transparent; /* No shadow */
     border: none; /* No border on buttons */
     border-radius: 16px; /* Rounded corners */
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.1
-    ); /* Slightly transparent background for modules */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for modules */
     /* padding: 4px 8px;  Padding for buttons */
 }
 
 /* Button hover effect */
 button:hover {
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.2
-    ); /* Slightly more opaque on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
 }
 
 #mode {
@@ -79,7 +69,7 @@ button:hover {
     background-color: rgba(55, 255, 0, 0.3);
     padding: 3px 14px; /* Adjust padding for better spacing */
     border-radius: 16px; /* Rounded corners */
-    color: #ffffff;
+    color: white;
     border: 1px solid lightgreen;
 }
 
@@ -96,7 +86,7 @@ button:hover {
     font-size: 12px;
     background-color: rgba(0, 125, 255, 0.2);
     padding: 3px 14px; /* Adjust padding for better spacing */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     color: #ffffff;
     border: 1px solid lightblue;
 }
@@ -108,6 +98,7 @@ button:hover {
 
 #workspaces button {
     border-radius: 15px;
+    color: white;
 }
 
 #pulseaudio,
@@ -115,9 +106,10 @@ button:hover {
 #idle_inhibitor,
 #mpd {
     padding: 4px 8px; /* Adjust padding for better spacing */
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
     border-radius: 16px; /* Rounded corners */
     color: #ffffff;
+    border: 1px solid lightblue;
+    background-color: rgba(55, 255, 0, 0.3);
 }
 
 #cpu:hover,
@@ -131,12 +123,7 @@ button:hover {
 }
 
 #temperature.critical {
-    background-color: rgba(
-        255,
-        0,
-        0,
-        0.3
-    ); /* Red background for critical temperature */
+    background-color: rgba(255, 0, 0, 0.3); /* Red background for critical temperature */
     border-radius: 16px; /* Rounded corners */
 }
 
@@ -157,32 +144,17 @@ button:hover {
 }
 
 #mpd.disconnected {
-    background-color: rgba(
-        245,
-        60,
-        60,
-        0.3
-    ); /* Red background for disconnected state */
+    background-color: rgba(245, 60, 60, 0.3); /* Red background for disconnected state */
     border-radius: 8px; /* Rounded corners */
 }
 
 #mpd.stopped {
-    background-color: rgba(
-        144,
-        177,
-        177,
-        0.3
-    ); /* Gray background for stopped state */
+    background-color: rgba(144, 177, 177, 0.3); /* Gray background for stopped state */
     border-radius: 8px; /* Rounded corners */
 }
 
 #mpd.paused {
-    background-color: rgba(
-        81,
-        163,
-        122,
-        0.3
-    ); /* Green background for paused state */
+    background-color: rgba(81, 163, 122, 0.3); /* Green background for paused state */
     border-radius: 8px; /* Rounded corners */
 }
 
@@ -203,10 +175,5 @@ button:hover {
 }
 
 #window:hover {
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.2
-    ); /* Hover effect for the current window title */
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect for the current window title */
 }

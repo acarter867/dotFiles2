@@ -1,30 +1,22 @@
+-- 1) Bootstrap lazy.nvim
+vim.g.mapleader = " "
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
 
--- init.lua
+-- 2) Set up plugins from `lua/plugins/init.lua`
+require("lazy").setup("plugins")
 
--- Load general settings
-vim.cmd('source ~/.config/nvim/configs/settings.lua')
-
--- Load key mappings
-vim.cmd('source ~/.config/nvim/configs/keymaps.lua')
-
--- Load plugins
-vim.cmd('source ~/.config/nvim/configs/plugins.lua')
-
--- Load LSP configuration
-vim.cmd('source ~/.config/nvim/configs/lsp.lua')
-
--- Load Treesitter configuration
-vim.cmd('source ~/.config/nvim/configs/treesitter.lua')
-
--- Load Telescope configuration
-vim.cmd('source ~/.config/nvim/configs/telescope.lua')
-
--- Load Harpoon configuration
-vim.cmd('source ~/.config/nvim/configs/harpoon.lua')
-
--- Load theme
-vim.cmd('source ~/.config/nvim/configs/theme.lua')
-
--- Load CMP Config
-vim.cmd('source ~/.config/nvim/configs/cmp.lua')
+-- 3) Load additional config
+require("settings")
+require("keymaps")
 
