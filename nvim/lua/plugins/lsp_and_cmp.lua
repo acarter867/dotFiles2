@@ -16,7 +16,7 @@ return {
     dependencies = { "williamboman/mason.nvim" },
     config = function()
       require("mason-lspconfig").setup({
-        -- ensure_installed = { "lua_ls", "pyright", "rust_analyzer" }, -- for example
+        ensure_installed = { "lua_ls", "pyright", "rust_analyzer", "tsserver", "gopls" },
       })
     end
   },
