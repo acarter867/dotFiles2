@@ -7,5 +7,6 @@ return {
   unpack(require("plugins.fzf")),    -- fzf returns a table with 2 specs
   require("plugins.vim-commentary"), -- commentary###
   require("plugins.lualine"),
+  require("plugins.harpoon"),
 }
 
